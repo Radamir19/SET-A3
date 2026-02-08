@@ -53,14 +53,16 @@
 Проведено **20 независимых запусков** алгоритма на потоках объемом до 100,000 элементов. Статистика обработана с помощью Python (Pandas, Matplotlib).
 
 ### График №1: Сравнение оценки и истинного значения
+<img width="1453" height="448" alt="Снимок экрана 2026-02-08 в 22 57 29" src="https://github.com/user-attachments/assets/3a65041f-a831-40dd-bf50-92bd5f4bd607" />
 
-<img width="1000" height="744" alt="Figure_1" src="https://github.com/user-attachments/assets/df87313e-5939-4fed-aabf-ea746869cfc3" />
+
 
 **Анализ:**
 График демонстрирует, что оценка HyperLogLog (пунктирная линия) следует за истинным значением (сплошная линия) с высокой точностью. Благодаря переключению на алгоритм *Linear Counting* при малом заполнении регистров, ошибка в начале потока минимальна.
 
 ### График №2: Статистика и теоретические границы
-<img width="1000" height="744" alt="Figure_1" src="https://github.com/user-attachments/assets/805cc110-4e5d-4825-b2a0-b4c9073e1384" />
+<img width="1470" height="452" alt="Снимок экрана 2026-02-08 в 22 58 14" src="https://github.com/user-attachments/assets/5ac01eab-f82a-4992-a8a2-a6a2b70ad37f" />
+
 
 
 **Анализ точности и дисперсии:**
